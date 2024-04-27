@@ -144,7 +144,11 @@ button:hover{
 .links{
     text-align: center;
 }
-@media only screen and (max-width:700px){
+@media screen and (min-width:340px) and (max-width:720px){
+    .container{
+        width:90%;
+        padding-inline:80px;
+    }
      nav ul{
         width:100%;
         background: linear-gradient(#ff54a2,#ff575a);
