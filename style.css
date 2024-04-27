@@ -16,7 +16,8 @@ body{
 .navbar{
     width:100%;
     display:flex;
-    align-items: center;
+    align-items: center; 
+    justify-content: space-between;
 }
 .img{
     width: 50px;
@@ -144,10 +145,10 @@ button:hover{
 .links{
     text-align: center;
 }
-@media screen and (min-width:340px) and (max-width:720px){
+@media only screen and (max-width:700px){
     .container{
-        width:90%;
-        padding-inline:80px;
+        padding-left: 40px;
+        padding-right: 45px;
     }
      nav ul{
         width:100%;
@@ -174,14 +175,14 @@ button:hover{
     }
     .row{
         flex-direction: column-reverse;
-        margin: 30px 0;
+        margin: 20px 0;
     }
     .col-2{
         flex-basis: 100%;
         margin-bottom: 30px;
     }
     .col-2 .controller{
-        width: 100%;
+        width: 80%;
     }
     .color-box{
         transform: translateX(75px);
