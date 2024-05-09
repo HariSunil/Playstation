@@ -41,7 +41,7 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     color: black;
-    font-size: 12px;
+    font-size: 16px;
 }
 nav ul li a:hover{
     color:blue;
@@ -58,7 +58,7 @@ nav ul li a:hover{
     margin-left:50px;
 }
 .col-1 h2{
-    font-size: 28px;
+    font-size: 36px;
 }
 .col-1 h3{
     font-size: 16px;
@@ -73,7 +73,7 @@ nav ul li a:hover{
 }
 .col-1 h4{
      margin: 16px 0;
-     font-size: 12px;
+     font-size: 13px;
 }
 button{
     width: 105px;
@@ -104,7 +104,7 @@ button:hover{
 .col-1::after{
     content:'';
     width:7px;
-    height:57%;
+    height:58%;
     background: linear-gradient(#ff469f,#ff6062);
     position: absolute;
     left:-30px;
@@ -148,6 +148,7 @@ button:hover{
 }
 .links{
     text-align: center;
+    margin-top:90px;
     
 }
 @media only screen and (max-width:700px){
